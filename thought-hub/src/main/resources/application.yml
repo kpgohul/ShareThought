@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: thought-hub
+
+  config:
+    import: configserver:http://localhost:8086/
+
+  profiles:
+    active: default

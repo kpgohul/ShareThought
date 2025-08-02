@@ -1,0 +1,46 @@
+spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5434/usermanager
+    username: kprahul
+    password: kprahul143
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8085/realms/share_thought_trust/protocol/openid-connect/certs
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8087/eureka/
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: info
+  pattern:
+    console: "%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %msg%n"
+
+keycloak:
+  auth-server-url: http://localhost:8085
+  realm: share_thought_trust
+  client-id: UserManager
+  client-secret: twXUvdWABA5EJoOYWcX7IyIdlxoU7Dqt
+  default-role-id: "04149a98-31cb-49c0-a619-df95fcf104a1"
+  default-role: "User"

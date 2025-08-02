@@ -1,0 +1,58 @@
+# Java & Spring Boot
+*.class
+*.jar
+*.war
+*.iml
+*.log
+*.tmp
+
+# Build directories
+/target/
+/out/
+/build/
+
+# Maven
+.mvn/
+!**/src/main/**/application.yml
+!**/src/main/**/application.properties
+
+# Gradle
+.gradle/
+/build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+/out/
+
+# Logs
+logs/
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment & local settings
+.env
+.env.local
+*.swp
+*.bak
+
+# Keycloak
+keycloak/exports/
+keycloak/realm-export.json
+
+# Test Reports
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# VS Code (optional)
+.vscode/
+
+# Spring Boot devtools restart cache
+.spring-boot-devtools.properties
+.spring-boot-devtools.jar

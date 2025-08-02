@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway-server
+
+  config:
+    import: configserver:http://localhost:8086/
+
+  profiles:
+    active: default

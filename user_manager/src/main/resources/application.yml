@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: user-manager
+
+  config:
+    import: configserver:http://localhost:8086/
+
+  profiles:
+    active: default

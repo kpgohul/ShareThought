@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: thoughts-sync
+
+  config:
+    import: configserver:http://localhost:8086/
+
+  profiles:
+    active: default

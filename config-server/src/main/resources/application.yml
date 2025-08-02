@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+#    active: git
+    active: native
+  cloud:
+    config:
+      native:
+        search-locations: classpath:/config
+#      git:
+#        uri: "https://github.com/kpgohul/CloudConfig.git"
+#        default-label: main
+#        timeout: 5
+#        clone-on-start: true
+#        force-pull: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8086
+
+logging:
+  level:
+    root: info
+  pattern:
+    console: "%green(%d{HH:mm:ss.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %msg%n"
