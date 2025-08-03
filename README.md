@@ -72,7 +72,7 @@ ShareThought is a **secure, scalable, and modular messaging platform** built usi
 
 **Gohul K.**  
 Backend Developer | Java & Spring Enthusiast  
-📧 [Reach out](mailto:your-email@example.com) | 🌐 [GitHub](https://github.com/kpgohul)
+📧 [Reach out](mailto:kpgohul@gmail.com) | 🌐 [GitHub](https://github.com/kpgohul)
 
 ---
 
