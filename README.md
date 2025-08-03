@@ -77,12 +77,6 @@ Backend Developer | Java & Spring Enthusiast
 
 ---
 
-## 📝 License
-
-This project is for learning and personal portfolio use. For commercial or production use, please contact the author.
-
----
-
 > _“No matter how much knowledge or skill you have, if you can’t communicate well, people won’t recognize your efforts.”_
 
 
