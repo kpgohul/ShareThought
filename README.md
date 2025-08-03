@@ -4,7 +4,6 @@
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![Keycloak](https://img.shields.io/badge/Auth-Keycloak-purple)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ShareThought is a **secure, scalable, and modular messaging platform** built using Java and Spring Boot Microservices. It supports **personal and group conversations**, backed by **Keycloak authentication**, **Spring Security**, and a PostgreSQL database. Designed for flexibility, this system is ideal for real-time chat applications and extensible for social platforms.
 
